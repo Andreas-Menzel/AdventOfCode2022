@@ -1,3 +1,8 @@
+# https://adventofcode.com/2022/day/1
+#
+# I just noticed that it is irrelevant to know the elf-ids...
+# My code is way longer than it needs to be. In summary: ugly but functional ^^
+
 
 # This will be the elf carrying the most calories
 master_elf = 0
