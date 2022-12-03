@@ -9,7 +9,7 @@ This repository contains my implementations for the challenges of
 
 - **Day 1:** Calorie Counting 🗸🗸
 - **Day 2:** Rock Paper Scissors 🗸🗸
-- **Day 3:** ⌛
+- **Day 3:** Rucksack Reorganization 🗸🗸
 - **Day 4:** ⌛
 - **Day 5:** ⌛
 - **Day 6:** ⌛
