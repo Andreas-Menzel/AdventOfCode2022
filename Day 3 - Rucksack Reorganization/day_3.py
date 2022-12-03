@@ -42,7 +42,6 @@ def part_two(rucksacks):
         current_group.append(rucksack)
         if len(current_group) == 3:
             groups.append(current_group)
-            group_size = 0
             current_group = []
 
     sum_of_priorities = 0
