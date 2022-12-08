@@ -1,3 +1,9 @@
+# Day 7 of the Advent of Code 2022: No Space Left On Device
+#
+# https://adventofcode.com/2022/day/7
+#
+# I did not finish this challenge. Part two is still missing :(
+
 
 class Filesystem():
     root_directory = None
@@ -114,7 +120,21 @@ def calculate_total_dir_size(_directory):
     return combined_size
 
 
+# Make sure that calculate_total_dir_size(...) was called before with the root
+# directory as parameter
+def get_smallest_size_bigger_than(_directory, _size, _ssbt = 0):
+    # Smallest Size Bigger Than
+    # ssbt = 0
 
+    print(_directory.totalsize)
+    if _directory.totalsize >= _size and _directory.totalsize <= ssbt:
+        _ssbt = _directory.totalsize
+        print(f'Size found with {_directory.totalsize}')
+    
+    for (dirname, subdir) in _directory.subdirectories.items():
+        get_smallest_size_bigger_than(subdir, _size, _ssbt)
+    
+    return _ssbt
 
 
 def main():
@@ -157,7 +177,8 @@ def main():
 
     print(f'Part one: Sum of total sizes is '\
           f'{calculate_total_dir_size(filesystem.root_directory.traverse_path(""))}')
-
+    print(f'Part two: Smallest directory size bigger than 30,000,000 is '
+         f'{get_smallest_size_bigger_than(filesystem.root_directory.traverse_path(""), 30000000)}')
 
 
 if __name__ == '__main__':

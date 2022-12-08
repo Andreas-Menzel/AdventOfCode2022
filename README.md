@@ -13,7 +13,7 @@ This repository contains my implementations for the challenges of
 - **Day 4:** Camp Cleanup 🗸🗸
 - **Day 5:** Supply Stacks 🗸🗸
 - **Day 6:** Tuning Trouble 🗸🗸
-- **Day 7:** ⌛
+- **Day 7:** No Space Left On Device 🗸✗
 - **Day 8:** Treetop Treehouse 🗸🗸
 - **Day 9:** ⌛
 - **Day 10:** ⌛
