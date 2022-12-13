@@ -1,3 +1,11 @@
+# Day 12 of the Advent of Code 2022: Hill Climbing Algorithm
+#
+# https://adventofcode.com/2022/day/12
+#
+# Implementation of a more efficient search algorithm is needed. I don't have
+# enough motivation to finish this one.
+
+
 import sys
 sys.setrecursionlimit(3000)
 

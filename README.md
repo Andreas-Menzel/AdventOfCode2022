@@ -6,6 +6,13 @@ This repository contains my implementations for the challenges of
 
 ![](christmas_tree.jpg)
 
+**Info**
+
+- ⌛: challenge not started (yet)
+- 🗸: challenge successfully finished
+- ✗: challenge started, but not finished
+
+**Challenges**
 
 - **Day 1:** Calorie Counting 🗸🗸
 - **Day 2:** Rock Paper Scissors 🗸🗸
@@ -18,8 +25,8 @@ This repository contains my implementations for the challenges of
 - **Day 9:** Rope Bridge 🗸⌛
 - **Day 10:** Cathode-Ray Tube 🗸⌛
 - **Day 11:** Monkey in the Middle 🗸✗
-- **Day 12:** ⌛
-- **Day 13:** ⌛
+- **Day 12:** Hill Climbing Algorithm ✗⌛
+- **Day 13:** Distress Signal 🗸⌛
 - **Day 14:** ⌛
 - **Day 15:** ⌛
 - **Day 16:** ⌛
